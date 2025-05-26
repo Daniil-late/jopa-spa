@@ -17,9 +17,9 @@ function Navbar() {
                 flexDirection: 'row',
                 justifyContent: 'space-around'
             }}>
-                <Link to="/">Home</Link>
-                <Link to="/news">News</Link>
-                <Link to="/contacts">Contact</Link>
+                <Link to="/jopa-spa/">Home</Link>
+                <Link to="/jopa-spa/news">News</Link>
+                <Link to="/jopa-spa/contacts">Contact</Link>
             </ul>
         </nav>
     )

@@ -6,9 +6,10 @@ export default function AppRouter(){
 
     return(
         <Routes>
+            <Route path="/jopa-spa/" element={<Home/>}></Route>
             <Route path="/" element={<Home/>}></Route>
-            <Route path="/news" element={<News/>}></Route>
-            <Route path="/contacts" element={<Contact/>}></Route>
+            <Route path="/jopa-spa/news" element={<News/>}></Route>
+            <Route path="/jopa-spa/contacts" element={<Contact/>}></Route>
         </Routes>
     )
 }
